@@ -13,6 +13,8 @@ and the Flutter guide for
 
 Flutter gif picker with Tenor Service.
 
+<img src='scr.png' height="400"/>
+
 ## Getting started
 
 Add Dependency to Flutter
