@@ -31,7 +31,7 @@ class SearchCubit extends Cubit<SearchState> {
     );
 
     if (result.status) {
-      next = result.data!.next;
+      this.next = result.data!.next;
       emit(SearchResult(results..addAll(result.data!.results)));
     }
     else {
