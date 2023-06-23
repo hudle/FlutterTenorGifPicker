@@ -20,10 +20,7 @@ Flutter gif picker with Tenor Service.
 Add Dependency to Flutter
 ```yaml
 dependencies:
-  flutter_tenor_gif_picker:
-    git:
-      url: https://github.com/hudle/FlutterTenorGifPicker
-      ref: main
+  flutter_tenor_gif_picker: ^0.0.1
 ```
 
 ## Usage
