@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_tenor_gif_picker/src/repository/tenor_repository.dart';
 import 'package:flutter_tenor_gif_picker/src/setup/tenor_meta.dart';
-import 'package:meta/meta.dart';
 import 'package:tenor_api_service/tenor_api_service.dart';
 
 part 'search_state.dart';

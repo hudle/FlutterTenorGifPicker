@@ -3,7 +3,7 @@ import 'package:flutter_tenor_gif_picker/flutter_tenor_gif_picker.dart';
 
 void main() {
   TenorGifPicker.init(
-      apiKey: 'AIzaSyDRXyttY5JX2_tS8ewP8yALV_u6eYr3nHU',
+      apiKey: 'YOUR_API_KEY',
       locale: 'en_IN',
       clientKey: 'test_app',
       country: 'IN');

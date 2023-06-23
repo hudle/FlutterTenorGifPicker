@@ -126,7 +126,6 @@ class _TenorGifPickerPageState extends State<TenorGifPickerPage> {
   _onScrollController() {
     if (_scrollController.position.maxScrollExtent ==
         _scrollController.position.pixels) {
-      print("Next");
       final cubit = context.read<SearchCubit>();
       if (cubit.next != null) {
         String? query = _editingController.text;
